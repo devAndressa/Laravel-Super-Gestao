@@ -1,78 +1,147 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
+<!-- MODELO PROJETO EM ANDAMENTO -->
+<h1 align="center"> 
+	🚧 Super Gestão - Em construção 🚧
+</h1>
+
+<!-- ---------------------------------------------------------------------- -->
+
+
+<!-- ---------------------------------------------------------------------- -->
+
+<!-- MODELO MENU DE NAVEGAÇÃO -->
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+ <a href="#-Descrição-do-entregável">Descrição do Entregável</a> •
+ <a href="#-sobre-o-projeto">Sobre</a> •
+ <a href="#-funcionalidades">Funcionalidades</a> •
+ <a href="#-layout">Layout</a> • 
+ <a href="#-como-executar-o-projeto">Como executar</a> • 
+ <a href="#-tecnologias">Tecnologias</a> • 
+ <a href="#-autor">Autor</a> • 
+ <a href="#user-content--licença">Licença</a>
 </p>
 
-## About Laravel
+<!-- ---------------------------------------------------------------------- -->
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<!-- MODELO DE DESCRIÇÃO -->
+## 📄 Descrição do entregável
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<!-- EXEMPLO DE DESCRIÇÃO DE UM PROJETO: -->
+- App (Pasta que armazena os controllers)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- Config/database(Onde fica as configurações do projeto, as connections)
+- Database (armazena as factories, migrations e seeds)
+- Routes ( onde estao todas as rotas do projeto)
+  
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<!-- ---------------------------------------------------------------------- -->
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<!-- MODELO DESCRIÇÃO SOBRE O PROJETO: -->
+## 💻 Sobre o projeto
 
-## Laravel Sponsors
+<!-- EXPLICA O MOTIVO DO PROJETO -->
+Projeto-Laravel é uma pagina web que usa o framework Laravel
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+O desafio proposto para este projeto com o nome de super gestão é a criação de um site de compras. Neste projeto fullstack, o objetivo é simular um site de compras onde se pode remover, adicionar, editar e colocar no carrinho itens selecionados no banco de dados do site.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
-- [Appoly](https://www.appoly.co.uk)
-- [OP.GG](https://op.gg)
+<!-- LINHA DE DIVISÃO: -->
+---
 
-## Contributing
+<!-- ---------------------------------------------------------------------- -->
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+<!-- MODELO FUNCIONALIDADES: -->
+## ⚙️ Funcionalidades
 
-## Code of Conduct
+<!-- EXEMPLO DE FUNCIONALIDADES: -->
+- [x] Se o usuário quiser adicionar um iten ou mais no carrinho de compras.
+- [x] Se o usuário quiser excluir itens do carrinho. 
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+---
 
-## Security Vulnerabilities
+<!-- ---------------------------------------------------------------------- -->
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+<!-- EXEMPLO DE LAYOUT: -->
+## 🎨 Layout
 
-## License
+### Widget
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<!-- AQUI VOCÊ PASSA O CAMINHO DA IMAGEM -->
+![Mobile1](https://github.com/devAndressa/Projeto-Laravel/blob/main/imagens/TelaInicial.png)<br>
+![Mobile2](https://github.com/devAndressa/Projeto-Laravel/blob/main/imagens/SobreN%C3%B3s.png)<br>
+![Mobile3](https://github.com/devAndressa/Projeto-Laravel/blob/main/imagens/Contato.png)
+
+
+---
+
+<!-- ---------------------------------------------------------------------- -->
+
+<!-- MODELO DE COMO EXECUTAR O PROJETO -->
+## 🚀 Como executar o projeto
+
+1 - Baixar o Projeto <br>
+ -Após clonar o projeto entre na pasta app super gestao. <br>
+ COMANDO -> cd app_super_gestao  <br>
+2 - Para rodar o projeto  <br>
+ COMANDO -> php artisan serve  <br>
+3 - Depois e só clicar na porta que irá aparecer  <br>
+ -(http://127.0.0.1:8000)
+
+<!-- ---------------------------------------------------------------------- -->
+
+<!-- MODELO DE PRÉ REQUISITOS -->
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[GitHub](https://github.com/), <br>
+[Laravel](https://laravel.com/docs/9.x/installation).  <br>
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+---
+
+<!-- ---------------------------------------------------------------------- -->
+
+<!-- MODELO DE TECNOLOGIAS -->
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+#### **Front-End**  ([Laravel](https://laravel.com/docs/11.x)) 
+
+-   **[PHP](https://www.php.net/docs.php)**
+  
+
+<!-- ---------------------------------------------------------------------- -->
+
+<!-- MODELO DE COMO CONTRIBUIR PARA O PROJETO -->
+## 💪 Como contribuir para o projeto
+
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as suas alterações: `git push origin my-feature`
+> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](./CONTRIBUTING.md)
+
+---
+
+<!-- ---------------------------------------------------------------------- -->
+
+<!-- MODELO DE AUTOR-->
+## 🦸 Autor
+
+<a href="https://www.linkedin.com/in/maria-andressa-monteiro11/">
+Maria Andressa Monteiro</a>
+ <br />
+ 
+---
+
+<!-- ---------------------------------------------------------------------- -->
+
+<!-- MODELO DE LICENÇA -->
+## 📝 Licença
+
+Este projeto esta sobe a licença [MIT](./LICENSE).
+
+Feito por Maria Andressa Monteiro👋🏽 [Entre em contato!](https://www.linkedin.com/in/maria-andressa-monteiro11/)
+
