@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\User;
 
 class LoginController extends Controller
 {
@@ -20,8 +21,32 @@ class LoginController extends Controller
 
         //as mensagens de feedback de validação
         $feedback = [
-            ''
+            'usuario.email' => 'O campo usuário (e-mail) é obrigatório',
+            'senha.required' =>'O campo senha é obrigatório'
         ];
 
+        //se não passar pelo validate
+        $request->validate($regras, $feedback);
+
+        //recuperamos os parametros do formulario
+        $email = $request->get('usuario');
+        $password = $request->get('senha');
+
+        echo "Usuário: $email | Senha: $password";
+        echo '<br>';
+
+        //iniciar o Model User
+        $user = new User();
+
+        $usuario = $user->where('email', $email)
+        ->where('password', $password)
+        ->get()
+        ->first();
+
+        if(isset($usuario->name)) {
+            echo 'Usuário existe';
+        } else {
+            echo 'Usuário não existe';
+        }
     }
 }
